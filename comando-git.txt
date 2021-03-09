@@ -1,0 +1,3 @@
+git init
+
+rd /s /q .git - exclui a pasta .git do diretório

@@ -1,0 +1,10 @@
+D:\Projetos\TopShelf c#\ExemploTopShelf\ExemploTopShelf\bin\Debug\ExemploTopShelf.exe.config
+D:\Projetos\TopShelf c#\ExemploTopShelf\ExemploTopShelf\bin\Debug\ExemploTopShelf.exe
+D:\Projetos\TopShelf c#\ExemploTopShelf\ExemploTopShelf\bin\Debug\ExemploTopShelf.pdb
+D:\Projetos\TopShelf c#\ExemploTopShelf\ExemploTopShelf\bin\Debug\Topshelf.dll
+D:\Projetos\TopShelf c#\ExemploTopShelf\ExemploTopShelf\bin\Debug\Topshelf.xml
+D:\Projetos\TopShelf c#\ExemploTopShelf\ExemploTopShelf\obj\Debug\ExemploTopShelf.csproj.CoreCompileInputs.cache
+D:\Projetos\TopShelf c#\ExemploTopShelf\ExemploTopShelf\obj\Debug\ExemploTopShelf.exe
+D:\Projetos\TopShelf c#\ExemploTopShelf\ExemploTopShelf\obj\Debug\ExemploTopShelf.pdb
+D:\Projetos\TopShelf c#\ExemploTopShelf\ExemploTopShelf\obj\Debug\ExemploTopShelf.csprojAssemblyReference.cache
+D:\Projetos\TopShelf c#\ExemploTopShelf\ExemploTopShelf\obj\Debug\ExemploTopShelf.csproj.CopyComplete
