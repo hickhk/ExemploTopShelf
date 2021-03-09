@@ -1,3 +1,5 @@
 git init
 
 rd /s /q .git - exclui a pasta .git do diretório
+
+git add <arquivo> - adiciona arquivo para o stage
