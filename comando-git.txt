@@ -1,3 +1,6 @@
+untracked - arquivo novo que não foi adicionado no stage
+modified - o arquivo foi motificado e não foi adicionado no stage
+
 git init
 
 git status
@@ -7,3 +10,9 @@ rd /s /q .git - exclui a pasta .git do diretório
 git add <arquivo> - adiciona arquivo para o stage
 
 git commit -m "c0 - primeiro commit"
+
+git config --global -l  - lista de configurações
+
+:q - sai do editor de comentario do commit
+
+git config --global core.editor emacs - altera o editor do git
