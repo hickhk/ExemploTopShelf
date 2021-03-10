@@ -11,6 +11,8 @@ git add <arquivo> - adiciona arquivo para o stage
 
 git commit -m "c0 - primeiro commit"
 
+git commit -am "c6 - mais uma alteração no comit" adiciona o arquivo alterado e faz commit em um só comando
+
 git config --global -l  - lista de configurações
 
 :q - sai do editor de comentario do commit
