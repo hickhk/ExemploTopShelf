@@ -1,5 +1,9 @@
 git init
 
+git status
+
 rd /s /q .git - exclui a pasta .git do diretório
 
 git add <arquivo> - adiciona arquivo para o stage
+
+git commit -m "c0 - primeiro commit"
