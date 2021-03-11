@@ -5,13 +5,26 @@ git init
 
 git status
 
+git log -1 - mostra o último commit (2) últimos dois e assim por diante
+
+git log --oneline - mostra os commits de forma reduzida
+
+git log --oneline - 2 - mostra os dois últimos logs de forma reduzida
+
+git log -1 --stat  - mostra o número de linhas alteradas no último commit
+
+git show <hash do commit> - mostra informações detalhadas do commit da hash
+
 rd /s /q .git - exclui a pasta .git do diretório
 
 git add <arquivo> - adiciona arquivo para o stage
 
+git add . adiciona na stage todos os arquivos que não foram adicionados
+
 git commit -m "c0 - primeiro commit"
 
-git commit -am "c6 - mais uma alteração no comit" adiciona o arquivo alterado e faz commit em um só comando
+git commit -am "c6 - mais uma alteração no comit" - adiciona o arquivo que já foi comitado e depois
+alterado e faz a adição do arquivo e o commit em um só comando
 
 git config --global -l  - lista de configurações
 
