@@ -1,10 +1,16 @@
-untracked - arquivo novo que não foi adicionado no stage
+untracked - arquivo novo que não foi adicionado ao stage
 modified - o arquivo foi motificado e não foi adicionado no stage
 
 git init  
 
 
 git diff - mostra a diferença entre o arquivo comitado e o arquivo alterado
+
+git diff <arquivo> - mostra a diferença somente deste alquivo commitado e o arquivo modified
+
+git diff --staged/git diff --cached - mostra a diferença entre o arquivo commitado e o arquivo que está na stage
+
+git diff <commit filho>..<commitado pai> - mostra a diferença entre o commit pai e o commit filho
 
 ---------------------------------------git status----------------------------------------
 
@@ -46,3 +52,16 @@ git config --global -l  - lista de configurações
 :q - sai do editor de comentario do commit
 
 git config --global core.editor emacs - altera o editor do git
+
+---------------------------------------desfazendo algumas coisas----------------------------------------
+
+git checkout - desfaz todas as alteraçõe em arquivos que não estão no stage
+
+git checkout <arquivo> - desfaz as alteraçõe feitas no arquivo que não estão no stage
+
+git reset  - retira o arquivo do stage
+
+git reset --soft <hash do commit filho> - retira os arquivos do commit e volta para stage
+
+git reset --mixed <hash do commit filho> - retira os arquivos do commit e volta para o modified
+
