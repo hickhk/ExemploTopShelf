@@ -34,6 +34,8 @@ git log --parents --oneline = mostra os commits reduzidos e seus pais
 
 git log --oneline -<numero de linhas> --all = mostra o log de todas as branchs
 
+git log --oneline -<numero de linhas> --all --graph = mostra o log de todas as branchs em estrutura de árvore
+
 ---------------------------------------git commit----------------------------------------
 
 git show <hash do commit> = mostra informações detalhadas do commit da hash
