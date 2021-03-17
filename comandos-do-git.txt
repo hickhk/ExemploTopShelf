@@ -51,6 +51,9 @@ git config --global -l  = lista de configurações
 
 :q = sai do editor de comentario do commit
 
+---------------------------------------git merge----------------------------------------
+git merge <branch> = faz o merge das alteraçoes na branch atual
+
 
 ---------------------------------------desfazendo algumas coisas----------------------------------------
 
