@@ -32,7 +32,7 @@ git log --author-<autor>
 
 git log --parents --oneline = mostra os commits reduzidos e seus pais
 
-git log
+git log --oneline -<numero de linhas> --all = mostra o log de todas as branchs
 
 ---------------------------------------git commit----------------------------------------
 
