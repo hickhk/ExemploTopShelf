@@ -62,7 +62,11 @@ git branch = lista as branchs
 
 git branch <nome branch> = cria uma nova branch
 
+git checkout -b <nome da branch> = cria uma nova branch e vai para a branch criada
+
 git branch checkout <nome branch> = muda para a branch indicada
+
+git branch -d <nome da branch> = deleta a branch indicada
 ---------------------------------------git merge----------------------------------------
 git merge <branch> = faz o merge das alteraçoes na branch atual
 
