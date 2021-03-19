@@ -118,3 +118,7 @@ git config --local user.name <usuario> = configura o nome de usuário para uma p
 git config --local user.email <email> = configura o email do usuário para uma pasta local do git
 
 
+
+
+
+
