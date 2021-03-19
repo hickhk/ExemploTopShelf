@@ -58,6 +58,8 @@ git config --global -l  = lista de configurações
 git push <alias> <branch> = enviando o projeto para o servidor git
 
 git pull <alias> <branch> = puxa para o branch local as alterações do servidor git
+
+
 ---------------------------------------git branch----------------------------------------
 
 git branch = lista as branchs 
@@ -71,6 +73,10 @@ git branch checkout <nome branch> = muda para a branch indicada
 git branch -d <nome da branch> = deleta a branch indicada
 ---------------------------------------git merge----------------------------------------
 git merge <branch> = faz o merge das alteraçoes na branch atual
+
+git merge --abort = desfaz as alterações nas branches
+
+
 
 ---------------------------------------desfazendo algumas coisas----------------------------------------
 
