@@ -36,6 +36,10 @@ git log --oneline -<numero de linhas> --all = mostra o log de todas as branchs
 
 git log --oneline -<numero de linhas> --all --graph = mostra o log de todas as branchs em estrutura de árvore
 
+git config alias.logn "<comandos>" = cria um alias para comandos git
+
+git config --unset alias.logn = exclui o alias personalizado
+
 ---------------------------------------git commit----------------------------------------
 
 git show <hash do commit> = mostra informações detalhadas do commit da hash
@@ -66,16 +70,28 @@ git branch = lista as branchs
 
 git branch <nome branch> = cria uma nova branch
 
+git branch -a = mostra todas as branches  inclusive as remotas
+
+git branch -r = mostra todas as branches remotas
+
 git checkout -b <nome da branch> = cria uma nova branch e vai para a branch criada
 
 git branch checkout <nome branch> = muda para a branch indicada
 
 git branch -d <nome da branch> = deleta a branch indicada
+
+git push origin:<branch> = deleta a branch indicada no repositorio remoto
 ---------------------------------------git merge----------------------------------------
 git merge <branch> = faz o merge das alteraçoes na branch atual
 
-git merge --abort = desfaz as alterações nas branches
+git merge --abort = desfaz as alterações do merge que o git estava tentando fazer nas branches
 
+git rebase <branche> = faz o merge das alterações re reorganiza os commits
+
+git rebase <branche> --continue = continua o precesso de rebase depois de resolver os conflitos
+
+no caso de conflito tanto do merge como do ribase, o git mostra os conflitos que dever ser 
+resolvidos manualmente
 
 
 ---------------------------------------desfazendo algumas coisas----------------------------------------
@@ -106,6 +122,11 @@ git remote -v = mostra a url remota do projeto
 
 git push origin master = envia os arquivos para o servidor para a branch master
 
+git push origin <branch>:<branch> = envia os arquivos para o servidor para uma branche no servidor
+
+git push -u origin <branch>:<branch> = envia os arquivos para o servidor para uma branche no servidor e 
+faz uma ligação entre a branch local e a branchs remota para na proxíma ver o git já reconhecer o destino
+
 git clone <url do projeto> = faz um clone do repositório remoto
 
 git pull = puxa as últimas alteraçoes do servidor para o repositório local
@@ -118,7 +139,12 @@ git config --local user.name <usuario> = configura o nome de usuário para uma p
 git config --local user.email <email> = configura o email do usuário para uma pasta local do git
 
 
+---------------------------------------gi chave ssh----------------------------------------
 
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com" = cria arquivo ssh
+depois disso, copiamos o conteudo do arquivo C:\Users\<usuario>\.ssh\id_rsa.pub
+acessamos nosso serviço remoto e seguimos a orientação para a configuração da chave ssh
 
 
 
